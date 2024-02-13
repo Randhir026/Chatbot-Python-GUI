@@ -6,7 +6,9 @@ The code sets up a Flask web application for a chatbot using a pre-trained model
 
 
 #steps to run code
-load JSON file
-run model.py
+load JSON file,
+
+run model.py,
+
 app.py
 
