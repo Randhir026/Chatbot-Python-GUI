@@ -1,0 +1,895 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi",
+      "hii",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "hey",
+      "whatsup"
+     
+   ],
+   "responses": [
+      "Hello!",
+      "Good to see you again!",
+      "Hi there, how can I help?"
+   ]
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg"
+   ],
+   "responses": [
+      "Sad to see you go :(",
+      "Talk to you later",
+      "Goodbye!",
+      "Come back soon"
+   ]
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "your creator",
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "Randhir Kumar "
+   ]
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who is Aura",
+      "who are you",
+      "Aura",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "You can call me your assistant.(Aura)",
+      "I'm your assistant (Aura)",
+      "I am a Chatbot(Aura)."
+      
+   ]
+},
+ {
+   "tag": "hours",
+   "patterns": [
+      "timing of college",
+      "what is college timing",
+      "working days",
+      "when are you guys open",
+      "what are your hours",
+      "hours of operation",
+      "when is the college open",
+      "college timing",
+      "timing",
+      "what about college timing",
+      "is college open on saturday",
+      "tell something about college timing",
+      "what is the college  hours",
+      "when should i come to college",
+      "when should i attend college",
+      "what is my college time",
+      "college timing",
+      "timing college"
+   ],
+   "responses": [
+      "College is open 9:30 am - 5:00 pm Monday-Saturday!"
+   ]
+},
+ {
+   "tag": "number",
+   "patterns": [
+      "more info",
+      "contact info",
+      "how to contact college",
+      "college telephone number",
+      "college number",
+      "What is your scontact no",
+      "Contact number?",
+      "how to call you",
+      "College phone no?",
+      "how can i contact you",
+      "Can i get your phone number",
+      "how can i call you",
+      "phone number",
+      "phone no",
+      "call"
+   ],
+   "responses": [
+      "P- 011-45184100, +91-9717500527  E- admissions@jims.in  "
+   ]
+},
+ {
+   "tag": "course",
+   "patterns": [
+      "list of courses",
+      "list of courses offered",
+      "list of courses offered in",
+      "what are the courses offered in your college?",
+      "courses?",
+      "list all the courses provided by college",
+      "courses offered",
+      "courses offered in jcc",
+      "courses you offer",
+      "branches?",
+      "courses available at UNI?",
+      "branches available at your college?",
+      "what are the courses in UNI?",
+      "what are branches in UNI?",
+      "what are courses in UNI?",
+      "branches available in UNI?"  
+   ],
+   "responses": [
+      "Our university offers Information Technology, computer Engineering, Interior designing, HM, English hnos, Engineering, Btech, Fashion designing, Psychology and many courses For more visit <a href=\"https://www.jims.in/Courses-Offered\">College courses</a></p>"
+   ]
+},
+ {
+   "tag": "fees",
+   "patterns": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "college fee",
+      "fee per semester",
+      "what is the fee of each semester",
+      "what is the fees of each year",
+      "what is fee",
+      "what is the fees",
+      "how much is the fees",
+      "fees for first year",
+      "fees",
+      "about the fees",
+      "tell me something about the fees",
+      "What is the fees of hostel",
+      "how much is the fees",
+      "hostel fees",
+      "fees for AC room",
+      "fees for non-AC room",
+      "fees for Ac room for girls",
+      "fees for non-Ac room for girls",
+      "fees for Ac room for boys",
+      "fees for non-Ac room for boys"
+   ],
+   "responses": [
+      "Different course have different fee structure  or for more visit <a href=\"https://www.jims.in/fee-structure-2023\">College website</a></p>"
+      
+   ]
+},
+ {
+   "tag": "location",
+   "patterns": [
+      "where is the college located",
+      "college is located at",
+      "where is college",
+      "where is college located",
+      "address of college",
+      "college location",
+      "college address",
+      "wheres the college",
+      "whats is the college address",
+      "what is the address of college",
+      "address",
+      "location"
+   ],
+   "responses": [
+      "Community Center, Sector 3, Rohini, Delhi,  P: 011-45184100, +91-9717500527, E: admissions@jims.in"
+   ]
+},
+ {
+   "tag": "hostel",
+   "patterns": [
+      "hostel facility",
+      "hostel servive",
+      "hostel location",
+      "hostel address",
+      "hostel facilities",
+      "hostel fees",
+      "Does college provide hostel",
+      "Is there any hostel",
+      "Where is hostel",
+      "do you have hostel",
+      "do you guys have hostel",
+      "hostel",
+      "about hostel",
+      "college hostal",
+      "hostel capacity",
+      "what is the hostel fee",
+      "how to get in hostel",
+      "what is the hostel address",
+      "how far is hostel from college",
+      "hostel college distance",
+      "where is the hostel",
+      "how big is the hostel",
+      "distance between college and hostel",
+      "distance between hostel and college"
+   ],
+   "responses": [
+      "The institute provides well-furnished hostel facility exclusively for males and females. The aim of the hostel is to make it a home away from home. It has spacious rooms with windows opening into balcony, other facilities include common room and dining room, Apart from the infrastructural soundness, it provides sufficient scope for interaction and relationship-building. It provides a congenial atmosphere that gives the new students full scope to know their seniors, learn from them, leverage their knowledge and build lasting relations with them. It is also a common sight to find study groups and project groups working away into the night in the hostel rooms. These interactions play an especially important role in a student’s life during placements and examinations. For hostel fee or other information go this website:<a href=\"https://www.jims.in/hostel\">College hostal</a></p>"
+   ]
+},
+ {
+   "tag": "event",
+   "patterns": [
+      "events organised",
+      "list of events",
+      "list of events organised in college",
+      "list of events conducted in college",
+      "What events are conducted in college",
+      "Are there any event held at college",
+      "Events?",
+      "functions",
+      "college event",
+      "tell me about college event",
+      "what are the events",
+      "tell me about events",
+      "what about events"
+   ],
+   "responses": [
+      "college organised many events like Diwali ki udan, Navratri Utsav, CODE Frenzy, POSHAN manch and many more"
+   ]
+},
+ 
+ {
+   "tag": "floors",
+   "patterns": [
+      "size of campus",
+      "building size",
+      "How many floors does college have",
+      "floors in college",
+      "floors in college",
+      "how tall is UNI's College of Engineering college building",
+      "floors"
+   ],
+   "responses": [
+      "College has total 5 floors "
+   ]
+},
+ {
+   "tag": "gdrgdsgdg",
+   "patterns": [
+      "hgnhgmghmfdrthdf",
+      "dfgdhrhfgbtsdstfn",
+      "owkfksfmsdfnzk",
+      "       ",
+      "mwsmdcnsabwftaeadgahf",
+      "ewhquihqiufjawnfihvznfvzfd,dfl",
+      "kflsmizossjrfivklmsrizgsn"
+   ],
+   "responses": [
+      "sorry! Please ask queries related to college"
+   ]
+},
+ {
+   "tag": "syllabus",
+   "patterns": [
+      "Syllabus for IT",
+      "what is the Information Technology syllabus",
+      "syllabus",
+      "timetable",
+      "about syllabus",
+      "what is IT syllabus",
+      "syllabus",
+      "What is next lecture"
+   ],
+   "responses": [
+      "Timetable and syllabus  is given to you by your class-soordinators after you join your respective classes"
+   ]
+},
+ {
+   "tag": "library",
+   "patterns": [
+      "is there any library",
+      "library facility",
+      "library facilities",
+      "do you have library",
+      "does the college have library facility",
+      "college library",
+      "tell me about college library",
+      "where can i get books",
+      "book facility",
+      "Where is library",
+      "Library",
+      "Library information",
+      "Library books information",
+      "Tell me about library",
+      "how many libraries"
+   ],
+   "responses": [
+      "There is one huge and spacious library.timings are 9:30am to 5pm "
+   ]
+},
+ {
+   "tag": "infrastructure",
+   "patterns": [
+      "how is college infrastructure",
+      "infrastructure",
+      "tell me about college infrastructure",
+      "college infrastructure"
+   ],
+   "responses": [
+      "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+   ]
+},
+{
+   "tag": "teacher",
+   "patterns": [
+      "teacher",
+      "teachers",
+      "about teacher",
+      "faculty",
+      "college faculty",
+      "college teacher"
+   ],
+   "responses": [
+      "Faculty members typically have a Ph.D. in their field of study and several years of experience teaching and researching at the university level. You can find more information about the qualifications and experience of specific faculty members on the university's website or by contacting the department directly."
+   ]
+},
+ {
+   "tag": "canteen",
+   "patterns": [
+      "food facilities",
+      "canteen facilities",
+      "canteen facility",
+      "is there any canteen",
+      "Is there a cafetaria in college",
+      "Does college have canteen",
+      "tell me about college canteen",
+      "Where is canteen",
+      "where is cafetaria",
+      "canteen",
+      "Food",
+      "Cafetaria"
+   ],
+   "responses": [
+      "Our university has canteen with variety of food available"
+   ]
+},
+ {
+   "tag": "menu",
+   "patterns": [
+      "food menu",
+      "food in canteen",
+      "about menu",
+      "Whats there on menu",
+      "what foods can we get in college canteen",
+      "food variety",
+      "What is there to eat?"
+   ],
+   "responses": [
+      "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+   ]
+},
+ {
+   "tag": "placement",
+   "patterns": [
+      "What is college placement",
+      "Which companies visit in college",
+      "What is average package",
+      "companies visit",
+      "package",
+      "placement rate",
+      "About placement",
+      "placement",
+      "recruitment",
+      "companies",
+      "What resources and support services does the university offer to help students prepare for placement?"
+   ],
+   "responses": [
+      "To know about placement visit  please visit your website <a href=\"https://www.jims.in\">College website</a></p>",
+      "The placement rate for most programs is around 70-80%. However, this can vary depending on the program, the industry, and the overall job market.",
+      "A wide variety of companies recruit from universities, including large multinational corporations, medium-sized businesses, and startups. The specific types of companies that recruit will vary depending on the university and the programs it offers.",
+      "your universities offer a variety of resources and support services to help students prepare for placement, such as:  1.Career counseling and advising  2.Resume and cover letter workshops  3.Mock interviews  4. Job fairs  5.Networking opportunities"
+   ]
+  
+},
+ {
+   "tag": "about",
+   "patterns": [
+      "about college",
+      "tell me about college",
+      "college information",
+      "tell me about jcc",
+      "jcc",
+      "about jcc",
+      "information about college"
+   ],
+   "responses": [
+      "Jagannath Community College (JCC) is the first of its kind in the system of professional education in India to cater to employment oriented education to the Society.As the demand for skill education kept on increasing in India, JCC has been established to provide relevant training and skill courses and customized programmes for industry aiming to job creation. The programs are aligned with Industry 4.0 to cater to the market needs and to harness valuable human potential and talent of youth in India. The motto is Education for Employment through Skill Development.JCC is approved Skill Knowledge Provider (SKP) under NSQF by AICTE. JCC is also NSDC Centre of Jagannath University, NCR Bahadurgarh which is the Training Partner of NSDC, Ministry of Skill Development & Entrepreneurship, Government of India. For more please visit your website: <a href=\"https://www.jims.in\">College website</a></p> "
+   ]
+},
+ {
+   "tag": "admission",
+   "patterns": [
+      "how to take admission",
+      "admission process",
+      "about admission",
+      "steps of admission "
+   ],
+   "responses": [
+      "Interested candidates can register themselves by filling up Application Form available at the JCC Campuses. Availability of Application Forms in Person The JCC Application Form and Prospectus for all the courses can be collected in person for Rs. 1000 (in cash) from the Campus.JCC Application Forms can be issued through Postal Service by sending a Demand Draft of Rs.1050 drawn in favour of JaganNath Institute of Management Sciences, payable at Delhi the Campus . And you can fill admissions form online through college website or fill the form by clicking <a href=\"https://www.jims.in/admission/adform\">College Admission form</a></p> "
+   ]
+},
+ {
+   "tag": "website",
+   "patterns": [
+      "college website",
+      "website"
+      
+   ],
+   "responses": [
+      "<p>Here's a link: <a href=\"https://www.jims.in\">College website</a></p>" 
+   ]
+},
+ {
+   "tag": "sem",
+   "patterns": [
+      "exam dates",
+      "exam schedule",
+      "When is semester exam",
+      "Semester exam timetable",
+      "sem",
+      "semester",
+      "exam",
+      "when is exam",
+      "exam timetable",
+      "exam dates",
+      "when is semester"
+   ],
+   "responses": [
+      " the Academic Calendar  is on website"
+   ]
+},
+ {
+   "tag": "Documents",
+   "patterns": [
+      "Documents Required",
+      "Documents Required for  admission process",
+      "Documents Required to take  admission in your college",
+      "admission Documents Required",
+      "document to bring",
+      "documents needed for admision",
+      "documents needed at the time of admission",
+      "documents needed during admission",
+      "documents required for admision",
+      "documents required at the time of admission",
+      "documents required during admission",
+      "What document are required for admission",
+      "Which document to bring for admission",
+      "documents",
+      "document",
+      "what documents do i need",
+      "what documents do I need for admission",
+      "documents needed"
+      
+   ],
+   "responses": [
+      "The following documents are required to be submitted along with duly filled form before the last date  :1. Class XIIth (Senior Secondary level) Admit Card.  2. Attested photocopies of Marksheet & Certificates of class XIIth (Senior Secondary level) & Xth (Secondary level).   3. Character Certificate   4. Proof of Residence   5. Four passport size colored photographs   6. Adhaar Card "
+   ]
+},
+ {
+   "tag": "scholarship",
+   "patterns": [
+      "scholarship",
+      "Is scholarship available",
+      "list of scholarship",
+      "college  scholarship",
+      "first year scholarship",
+      "second year scholarship",
+      "third year scholarship",
+      "fourth year scholarship"
+   ],
+   "responses": [
+      "The candidate is eligible for the scholarship scheme if he,she fulfills any of the following criteria:1) Scored 90% or above in class 12th board exams. 2) Has a single parent (mother) who is not earning. 3) Belongs to the BPL(Below Poverty Line) category."
+   ]
+},
+ {
+   "tag": "facilities",
+   "patterns": [
+      "What facilities college provide",
+      "College facility",
+      "What are college facilities",
+      "facilities",
+      "facilities provided"
+   ],
+   "responses": [
+      "Our university's all departments provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+   ]
+},
+ {
+   "tag": "college intake",
+   "patterns": [
+      "max number of students",
+      "number of seats per branch",
+      "number of seats in each branch",
+      "maximum number of seats",
+      "maximum students intake",
+      "What is college intake",
+      "how many stundent are taken in each branch",
+      "seat allotment",
+      "how many seats",
+      "seats"
+   ],
+   "responses": [
+      " Seat may be differ for different department. Maximun intake 40 - 45"
+   ]
+},
+ {
+   "tag": "uniform",
+   "patterns": [
+      "college dress code",
+      "college dresscode",
+      "what is the uniform",
+      "can we wear casuals",
+      "Does college have an uniform",
+      "Is there any uniform",
+      "uniform",
+      "what about uniform",
+      "do we have to wear uniform"
+   ],
+   "responses": [
+      "No dress code or college uniform required."
+   ]
+},
+ {
+   "tag": "committee",
+   "patterns": [
+      "what are the different committe in college",
+      "different committee in college",
+      "Are there any committee in college",
+      "Give me committee details",
+      "committee",
+      "how many committee are there in college"
+   ],
+   "responses": [
+      "For the various committe in college contact this number: 11003651"
+   ]
+},
+ {
+   "tag": "random",
+   "patterns": [
+      "I love you",
+      "Will you marry me",
+      "Do you love me"
+   ],
+   "responses": [
+      "I am not program for this, please ask appropriate query"  
+   ]
+},
+ {
+   "tag": "swear",
+   "patterns": [
+      "fuck",
+      "bitch",
+      "shut up",
+      "hell",
+      "stupid",
+      "idiot",
+      "dumb ass",
+      "asshole",
+      "fucker"
+   ],
+   "responses": [
+      "please use appropriate language",
+      "Maintaining decency would be appreciated"
+   ]
+},
+ {
+   "tag": "vacation",
+   "patterns": [
+      "holidays",
+      "when will semester starts",
+      "when will semester end",
+      "when is the holidays",
+      "list of holidays",
+      "Holiday in these year",
+      "holiday list",
+      "about vacations",
+      "about holidays",
+      "When is vacation",
+      "When is holidays",
+      "how long will be the vacation"
+   ],
+   "responses": [
+      "Academic calender is given to you by your class-soordinators after you join your respective classes"
+   ]
+},
+ {
+   "tag": "sports",
+   "patterns": [
+      "sports and games",
+      "give sports details",
+      "sports infrastructure",
+      "sports facilities",
+      "information about sports",
+      "Sports activities",
+      "college sport",
+      "college sports",
+      "please provide sports information",
+      "please provide sports and games information"
+   ],
+   "responses": [
+      " University encourages all-round development of students and hence provides sports facilities in the campus." , 
+      "Annual Sports Meet offers a comprehensive range of sports activities striving to promote the physical and mental well being of the students. JIMS hosts its sports week every year with plethora of sports activities to inculcate the culture of physical fitness and team spirit among the students. The sports week includes various sports activities like Chess, Football, Cricket, Volley Ball, Badminton, Table Tennis, Basket Ball, Dart Game, Short-put, Tug of War, Races, Arm Wrestling and JIMS Marathon. "
+   ]
+},
+ {
+   "tag": "salutaion",
+   "patterns": [
+      "nice work",
+      "well done",
+      "good job",
+      "thanks for the help",
+      "Thank You",
+      "Thanks",
+      "Good work"
+     
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "welcome, anything else i can assist you with?"
+   ]
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "what can you do",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+      "I can answer to low-intermediate questions regarding college",
+      "You can ask me questions regarding college, and i will try to answer them"
+   ]
+},
+ {
+   "tag": "ragging",
+   "patterns": [
+      "ragging",
+      "is ragging practice active in college",
+      "does college have any antiragging facility",
+      "is there any ragging cases",
+      "is ragging done here",
+      "ragging against",
+      "antiragging facility",
+      "ragging juniors",
+      "ragging history",
+      "ragging incidents"
+   ],
+   "responses": [
+      "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+   ]
+},
+ {
+   "tag": "reach",
+   "patterns": [
+      "how to reach college",
+      "nearest bus stop",
+      "nearest metro station",
+      "reach",
+      "how can I reach college"
+   ],
+   "responses": [
+      "Nearest metro station is Rohini west, Nearest bus stop is Rohini Depot"
+   ]
+},
+ {
+   "tag": "mca",
+   "patterns": [
+      "about mca",
+      "mca",
+      "tell me about mca ",
+      "mca course"
+   ],
+   "responses": [
+      "The 2 Year Post Graduate Degree Course in computer science awarded in India to IT Graduates. The program is inclined more toward Application Development and thus has more emphasis on latest programming language and tools to develop better and faster applications. The course is designed to meet the growing demand of qualified professionals in the field of Information Technology. It is a postgraduate course that can be taken up after obtaining a Bachelor's Degree in IT. <a href=\"https://www.jims.in/mca-pg-2\">MCA course</a></p> "
+   ]
+},
+ {
+   "tag": "mca Eligibility",
+   "patterns": [
+      "about mca Eligibility",
+      "mca Eligibility",
+      "tell me about mca Eligibility",
+      "mca course",
+      "Eligibility for mca",
+      "mca eligible"
+   ],
+   "responses": [
+      " Eligibility: Recognized Bachelor’s Degree of minimum 3 years duration in BCA, B. Sc (IT/Computer Science) with Mathematics as a course at 10+2 level or at Graduate Level. Obtained at least 50% marks at the qualifying Examination. For more details go <a href=\"https://www.jims.in/mca-pg-2\">MCA course</a></p>  "
+   ]
+},
+ {
+   "tag": "bca",
+   "patterns": [
+      "about bca",
+      "bca",
+      "tell me about bca ",
+      "bca course"
+   ],
+   "responses": [
+      "The uniqueness of the 3 years degree programme is that it develops industry relevant practical skill sets using Industrial Training Project and Final Project. It will enhance the ability to program the problems, web development, Advance Java Programming, Microsoft .Net Programming, analyzing and mining the data, exposure of working on Technicalities of Mobile Computing, Computer Network Security,Cyber Ethics, Software Tesing, Artificial Intelligence using Python , in depth knowledge of various computer Networking protocols and Technologies that enable students to have various job opportunities like -Software Engineer/ Web developer, System Programmer, Analyst, Database Administrator, Trainer, Networking Specialist, Network Security Specialist, Technical Writer, Search Engine Optimizer, Network Security Specialist etc. <a href=\"https://www.jims.in/bca-degree\"> BCA course</a></p> "
+   ]
+},
+ {
+   "tag": "bca Eligibility",
+   "patterns": [
+      "about bca Eligibility",
+      "bca Eligibility",
+      "tell me about bca Eligibility",
+      "bca course",
+      "Eligibility for bca",
+      "bca eligible"
+   ],
+   "responses": [
+      " Eligibility: 10+2(Any Stream) with Minimum 50% Marks. For more details go <a href=\"https://www.jims.in/bca-degree\"> BCA course</a></p>  "
+   ]
+},
+ {
+   "tag": "bba",
+   "patterns": [
+      "about bba",
+      "bba",
+      "tell me about bba ",
+      "bba course"
+   ],
+   "responses": [
+      "The uniqueness of the 3 years degree programme is that it develops industry relevant skills in the area of Business Ethics, Financial Markets, Visual Merchandising, Financial Planning, Retail Operations and Store Management, International marketing and Customer value management. After completion of the course, students can find career opportunities as Merchandising Manager, Supply Chain Manager, Marketing Manager, Business Analyst, Financial Planner, Tax Planner, HR Manager, Developmental Manager, Team Manager and Production & Operations Manager.  "
+   ]
+},
+ {
+   "tag": "bba Eligibility",
+   "patterns": [
+      "about bba Eligibility",
+      "bba Eligibility",
+      "tell me about bba Eligibility",
+      "bba course",
+      "Eligibility for bba",
+      "bba eligible"
+   ],
+   "responses": [
+      " Eligibility: Minimum 50% marks in 10+2 (best of four) including English. "
+   ]
+},
+ {
+   "tag": "mba",
+   "patterns": [
+      "about mba",
+      "mba",
+      "tell me about mba ",
+      "mba course"
+   ],
+   "responses": [
+      "The Two-Year Full-Time MBA programme consists of four semesters.The course structure has been designed to ensure that the students develop a judicious blend of strategic thinking, tactical implementation, specialized knowledge and general management skills. In the first year, the focus is to build a foundation of conceptual and analytical skills, required for pursuing specialized study in various functional areas. The students have to undertake Live projects and Summer Training.Student connect programme is offered before the commencement of regular classes to help incoming candidates cope with the Programme by offering classes that bridge the knowledge gap between the students coming from different domains & PGDM Curriculum.  "
+   ]
+},
+ {
+   "tag": "mba Eligibility",
+   "patterns": [
+      "about mba Eligibility",
+      "mba Eligibility",
+      "tell me about bba Eligibility",
+      "mba course",
+      "Eligibility for mba",
+      "mba eligible"
+   ],
+   "responses": [
+      " Eligibility: Graduates or Final year students can apply. "
+   ]
+},
+ {
+   "tag": "bcom",
+   "patterns": [
+      "about bcom",
+      "bcom",
+      "tell me about bcom ",
+      "bcom course"
+   ],
+   "responses": [
+      "Bachelor of Commerce is a three-year undergraduate course for students to develop inquisitive, rigorous and problem-solving skills to identify issues, relevant information and their efficient and practical solutions.It is also ideal for those who wish to pursue Chartered Accountancy, Cost Accounting and Company Secretary. After completion of the course, students can find career opportunities as Accountant, Auditor, Tax Consultant, Budget Planner, Economist, Company Secretary,Inventory Controller, Merchant Banker, Business Analyst, Finance Planner, Treasurer and Investment Banker. "
+   ]
+},
+ {
+   "tag": "bcom Eligibility",
+   "patterns": [
+      "about bcom Eligibility",
+      "bcom Eligibility",
+      "tell me about bcom Eligibility",
+      "bcom course",
+      "Eligibility for bcom",
+      "bcom eligible"
+   ],
+   "responses": [
+      " Eligibility: Minimum 50% marks in 10+2 (best of four) including English. "
+   ]
+},
+ {
+   "tag": "Fashion Design bfd",
+   "patterns": [
+      "about Fashion Design ",
+      "Fashion Design",
+      "bfd",
+      "tell me about Fashion Design ",
+      "Fashion Design course"
+   ],
+   "responses": [
+      "JCC Fashion Design and Technology is among the most sort-after fashion design schools in India. The institute offers well-tailored fashion design courses for students, who aspire to carve a niche in fashion business. Our fashion design and technology programme train students to use colors, fabrics and ornamentation to craft different fashion items. Students can analyze recent fashion trends and learn about basic business and merchandising principles. The hands-on practice allows students to apply skills in interpreting and developing projects in the different areas of fashion, and add more value to their creativity. "
+   ]
+},
+ {
+   "tag": "Fashion Design Eligibility bfd",
+   "patterns": [
+      "about Fashion Design Eligibility",
+      "Fashion Design Eligibility",
+      "bfd Eligibility",
+      "tell me about Fashion Design Eligibility",
+      "Fashion Design course",
+      "Eligibility for Fashion Design",
+      "Fashion Design eligible",
+      "bfd eligible"
+   ],
+   "responses": [
+      " Eligibility: Minimum 50% marks in 10+2 (best of four) including English. "
+   ]
+},
+ {
+   "tag": "date",
+   "patterns": [
+      "last date for admission ",
+      "admission last date",
+      "last date for form fill",
+      "last date for admission form"
+   ],
+   "responses": [
+      "Sorry Admission Closed for Session 2023-2024 !"
+   ]
+}
+]
+}
